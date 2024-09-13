@@ -6,6 +6,7 @@ import (
 	"syscall"
 )
 
+
 // Getenv reads the environment variable
 // the first argument is "key" and the second variable is the "default" if there is no key value.
 func Getenv(key string, defaultValue ...string) string {
